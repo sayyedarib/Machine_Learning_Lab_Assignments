@@ -1,0 +1,29 @@
+// Decision Tree
+digraph {
+	140480118753984 [label="X_1 <= No
+Info Gain: 0.05648926237161522" color=lightgreen shape=box style=filled]
+	140480118753984 -> 140480118753792 [label=True]
+	140480118753792 [label="X_0 <= No
+Info Gain: 0.2612244897959186" color=lightgreen shape=box style=filled]
+	140480118753792 -> 140481474432928 [label=True]
+	140481474432928 [label="['No']" color=lightblue shape=oval style=filled]
+	140480118753792 -> 140480118751488 [label=False]
+	140480118751488 [label="X_2 <= No
+Info Gain: 0.11999999999999983" color=lightgreen shape=box style=filled]
+	140480118751488 -> 140480118751440 [label=True]
+	140480118751440 [label="['No']" color=lightblue shape=oval style=filled]
+	140480118751488 -> 140480118753696 [label=False]
+	140480118753696 [label="['Yes']" color=lightblue shape=oval style=filled]
+	140480118753984 -> 140480118752688 [label=False]
+	140480118752688 [label="X_0 <= No
+Info Gain: 0.004844290657439396" color=lightgreen shape=box style=filled]
+	140480118752688 -> 140480118752736 [label=True]
+	140480118752736 [label="['Yes']" color=lightblue shape=oval style=filled]
+	140480118752688 -> 140480118752640 [label=False]
+	140480118752640 [label="X_2 <= No
+Info Gain: 0.0022222222222221533" color=lightgreen shape=box style=filled]
+	140480118752640 -> 140480118753936 [label=True]
+	140480118753936 [label="['Yes']" color=lightblue shape=oval style=filled]
+	140480118752640 -> 140480118752112 [label=False]
+	140480118752112 [label="['Yes']" color=lightblue shape=oval style=filled]
+}

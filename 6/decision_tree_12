@@ -1,0 +1,14 @@
+// Decision Tree
+digraph {
+	140297333572080 [label="X_3 <= 1.7
+Info Gain: 0.3979591836734694" color=lightgreen shape=box style=filled]
+	140297333572080 -> 140297333572416 [label=True]
+	140297333572416 [label="X_0 <= 4.9
+Info Gain: 0.40816326530612246" color=lightgreen shape=box style=filled]
+	140297333572416 -> 140297333572704 [label=True]
+	140297333572704 [label="['Iris-setosa']" color=lightblue shape=oval style=filled]
+	140297333572416 -> 140297333573808 [label=False]
+	140297333573808 [label="['Iris-versicolor']" color=lightblue shape=oval style=filled]
+	140297333572080 -> 140297333572608 [label=False]
+	140297333572608 [label="['Iris-virginica']" color=lightblue shape=oval style=filled]
+}
